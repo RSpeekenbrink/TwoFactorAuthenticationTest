@@ -26,7 +26,7 @@ class TwoFactorAuthenticator
     $base32Chars = Self::_getBase32LookupTable();
 
     $random = false;
-    $secret = ' ';
+    $secret = '';
 
     if(function_exists('random_bytes')) {
       $random = random_bytes($keyLength);
