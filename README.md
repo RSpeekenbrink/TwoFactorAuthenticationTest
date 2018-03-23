@@ -11,3 +11,6 @@ To run the application use any PHP 7 or higher server. Simply run it from the sr
 ## Extra's
 You can at a secret key as URL parameter to maintain a specific secret key. example:
 ``http://localhost/?secret=AFDA2X2RSDAYVRSW7W4LKFY6TNRDDJZR``
+
+You can also use the in browser 'Authenticator'
+``http://localhost/showCode.php``
